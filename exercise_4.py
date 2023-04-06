@@ -12,14 +12,21 @@ import sys
 import argparse
 
 class Machine:
-    """A class which contains a single function to greet the world."""
+    """A class which contains a function to greet the world."""
     
     def greet():
-        """The single function of the Machine class which greets the world.
+        """A function of the Machine class which greets the world.
         
         Side effects: Prints a message when prompted."""
         
         print("Hello, world")
+        
+    def farewell():
+        """A function of the Machine class which bids farewell to the world.
+        
+        Side effects: Prints a message when prompted."""
+        
+        print("Goodbye, world")
 
 def main(parameter1, parameter2):
     #Note that this function does not do anything.
